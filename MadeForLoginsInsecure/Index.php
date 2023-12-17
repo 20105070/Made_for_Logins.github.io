@@ -14,7 +14,7 @@
     <?php
         error_reporting(0);
         if ($_GET["username"] == "admin" && $_GET["password"] == "admin") {
-            header("Location:http://localhost:8000/MakeLogins.php");
+            header("Location:http://localhost:3248/MakeLogins.php");
         }
     ?>
 
